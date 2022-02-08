@@ -7,3 +7,7 @@ def solution(numbers):
         if i not in numbers:
             answer += i 
     return answer
+
+#better answer
+def solution(numbers):
+    return 45 - sum(numbers)
