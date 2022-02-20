@@ -1,0 +1,6 @@
+"""https://programmers.co.kr/learn/courses/30/lessons/12933"""
+
+#1st try
+def solution(n):
+    #sorting a string automatcally transforms the string into a list 
+    return int("".join(sorted(str(int(n)), reverse =  True)))
